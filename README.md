@@ -6,8 +6,11 @@ This is a an app called **Asterisk** that focuses on tracking and journaling of 
 - Write reviews and rate books, complete with rich text formatting and auto-save
 - Register and Login with email, Facebook, and Google
 
-**Test Account:**
+**Running the App:**
+There are two scripts for running in dev or prod mode. Both should open your browser to the app automatically.
+- `npm run start-dev`
+- `npm run start-prod`
 
 Feel free to use this account to try out the app locally
-- Username: test@gmail.com
-- Password: test123
+- Username: `test@gmail.com`
+- Password: `test123`
