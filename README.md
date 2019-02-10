@@ -12,6 +12,9 @@ There are two scripts for running in dev or prod mode. Both should open your bro
 - `npm run start-dev`
 - `npm run start-prod`
 
-Feel free to use this account to try out the app locally
+Note that the app loads a manual text dump of books from https://openlibrary.org/ that is not included in this repo.
+To run the app fully you will have to grab the `ol_dump_works_2018-07-31.txt` file from OpenLibrary.
+
+Feel free to use this test account
 - Username: `test@gmail.com`
 - Password: `test123`
