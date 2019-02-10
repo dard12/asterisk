@@ -9,7 +9,5 @@ This is a an app called **Asterisk** that focuses on tracking and journaling of 
 **Test Account:**
 
 Feel free to use this account to try out the app locally
-
-username: test@gmail.com
-
-password: test123
+- Username: test@gmail.com
+- Password: test123
