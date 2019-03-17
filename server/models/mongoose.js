@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/bookclub');
+mongoose.connect('mongodb://localhost/bookclub', { useNewUrlParser: true });
 
 function upsertTimestamps(schema) {
   schema.add({
     createdAt: Date,
-    updatedAt: Date,
+    updatedAt: Date
   });
 
   schema.pre('save', function(next) {
