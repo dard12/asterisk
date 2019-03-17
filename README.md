@@ -1,5 +1,7 @@
 ## Overview
-This is a an app called **Asterisk** that focuses on tracking and journaling of books the user has read. More or less this is just a skeleton sample app showcasing a simple account system.
+This is a an app called **Asterisk** that focuses on tracking and journaling of books the user has read.
+
+![Asterisk Screenshot 1](asterisk-screenshot.png?raw=true)
 
 ## Features
 - Search from a large selection of books
@@ -8,13 +10,7 @@ This is a an app called **Asterisk** that focuses on tracking and journaling of 
 - Register and login with email, Facebook, and Google
 
 ## Running the App
-There are two scripts for running in dev or prod mode. Both should open your browser to the app automatically.
-- `npm run start-dev`
-- `npm run start-prod`
+`npm run start-dev`
 
 Note that the app loads a manual text dump of books from https://openlibrary.org/ that is not included in this repo.
 To run the app fully you will have to grab the `ol_dump_works_2018-07-31.txt` file from OpenLibrary.
-
-Feel free to use this test account
-- Username: `test@gmail.com`
-- Password: `test123`
